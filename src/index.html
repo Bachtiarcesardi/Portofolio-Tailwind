@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachtiar Cesardi | Web Developer</title>
+    <link href="./output.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+/>
+
+</head>
+<body class="bg-[#F5F1E8] text-[#111111]">
+    <!-- Navbar -->
+    <header class="border-b-4 border-black bg-white">
+        <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-black uppercase">
+                Bachtiar.dev
+            </a>
+            <!-- Navigation -->
+            <div class="hidden items-center gap-8 font-bold md:flex">
+                <a href="#about" class="hover:underline">
+                    About
+                </a>
+                <a href="#skills" class="hover:underline">
+                    Skills
+                </a>
+                <a href="#projects" class="hover:underline">
+                    Projects
+                </a>
+                <a href="#experience" class="hover:underline">
+                    Experience
+                </a>
+                <a href="#certifications" class="hover:underline">
+                    Certifications
+                </a>
+                <a href="#contact" class="hover:underline">
+                    Contact
+                </a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button
+                id="menu-button"    
+                type="button"
+                class="border-4 border-black bg-[#FFD93D] px-4 py-2 font-black md:hidden">
+                MENU
+            </button>
+        </nav>
+        
+    </header>
+        <!-- Mobile Menu -->
+        <div
+            id="mobile-menu"
+            class="hidden border-t-4 border-black bg-white md:hidden"
+        >
+        <nav class="flex flex-col">
+            <a
+                href="#about"
+                class="border-b-4 border-black px-6 py-4 font-black uppercase hover:bg-[#FFD93D]"
+            >
+                About
+            </a>
+            <a
+            href="#skills"
+            class="border-b-4 border-black px-6 py-4 font-black uppercase hover:bg-[#FFD93D]"
+            >
+            Skills
+            </a>
+            <a
+            href="#project"
+            class="border-b-4 border-black px-6 py-4 font-black uppercase hover:bg-[#FFD93D]"
+            >
+            Projects
+            </a>
+            <a
+            href="#experience"
+            class="border-b-4 border-black px-6 py-4 font-black uppercase hover:bg-[#FFD93D]"
+        >
+            Experience
+            </a>
+            <a
+            href="#certifications"
+            class="border-b-4 border-black px-6 py-4 font-black uppercase hover:bg-[#FFD93D]"
+        >
+            Certifications
+            </a>
+            <a
+            href="#contact"
+            class="px-6 py-4 font-black uppercase hover:bg-[#FFD93D]"
+        >
+            Contact
+            </a>
+            </nav>
+        </div>
+    <!-- Main Content -->
+    <main>
+        
+    <!-- Hero Section -->
+    <section class="px-6 py-16 md:py-24">
+        <div class="mx-auto grid max-w-6xl gap-10 md:grid-cols-2 md:items-center">
+            <!-- Hero Text -->
+            <div>
+                <p class="mb-4 inline-block border-4 border-black bg-[#7FE5A3] px-4 py-2 font-black uppercase shadow-[4px_4px_0px_#111111]">
+                    Junior Fullstack Developer
+                </p>
+                <h1 class="text-5xl font-black uppercase leading-none md:text-7xl">
+                    Hello, I'm
+                    <span class="block text-[#FF6B9D]">
+                        Bachtiar
+                    </span>
+                </h1>
+                <p class="mt-6 max-w-xl text-lg font-medium leading-relaxed md:text-xl">
+                    Informatics graduate who is passionate about building
+                    modern, responsive, and user-friendly websites.
+                </p>
+                <!-- Buttons -->
+                <div class="mt-8 flex flex-wrap gap-4">
+                    <a
+                        href="#projects"
+                        class="border-4 border-black bg-[#FFD93D] px-6 py-3 font-black uppercase shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
+                        View Projects
+                    </a>
+                    <a
+                        href="#contact"
+                        class="border-4 border-black bg-white px-6 py-3 font-black uppercase shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+            <!-- Hero Visual -->
+            <div class="relative">
+                <div class="border-4 border-black bg-[#6C9EFF] p-8 shadow-[10px_10px_0px_#111111]">
+                    <div class="flex aspect-square items-center justify-center border-4 border-black bg-white">
+                        <div class="text-center">
+                            <div class="text-7xl">
+                                <img
+                                    src="../images/foto.jpg"
+                                    alt="Bachtiar Cesardi"
+                                    class="h-full w-full object-cover"
+                                >
+                            </div>
+                            <p class="mt-4 text-2xl font-black uppercase">
+                                Code Mode
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Decorative element -->
+                <div class="absolute -right-4 -top-4 rotate-6 border-4 border-black bg-[#FFD93D] px-4 py-2 font-black">
+                    AVAILABLE
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="px-6 py-16 md:py-24">
+    <div class="mx-auto max-w-6xl">
+        <!-- Section Title -->
+        <div class="mb-10">
+            <p class="mb-3 inline-block border-4 border-black bg-[#FF6B9D] px-4 py-2 font-black uppercase shadow-[4px_4px_0px_#111111]">
+                Get to know me
+            </p>
+            <h2 class="text-4xl font-black uppercase md:text-6xl">
+                About Me
+            </h2>
+        </div>
+        <!-- About Grid -->
+        <div class="grid gap-8 md:grid-cols-3">
+            <!-- About Description -->
+            <div class="border-4 border-black bg-white p-8 shadow-[8px_8px_0px_#111111] md:col-span-2">
+                <h3 class="text-3xl font-black uppercase">
+                    Who am I?
+                </h3>
+                <p class="mt-5 text-lg font-medium leading-relaxed">
+                    I'm Bachtiar Cesardi, an Informatics graduate who is
+                    interested in web development. I enjoy learning how
+                    websites are designed, built, and connected with
+                    modern technologies.
+                </p>
+                <p class="mt-4 text-lg font-medium leading-relaxed">
+                    Currently, I'm developing my skills in frontend and
+                    backend development while building practical projects
+                    for my portfolio.
+                </p>
+            </div>
+            <!-- Quick Info -->
+            <div class="border-4 border-black bg-[#7FE5A3] p-8 shadow-[8px_8px_0px_#111111]">
+                <h3 class="text-3xl font-black uppercase">
+                    Quick Info
+                </h3>
+                <ul class="mt-6 space-y-4 text-lg font-bold">
+                    <li class="border-b-2 border-black pb-3">
+                        🎓 Informatics Graduate
+                    </li>
+                    <li class="border-b-2 border-black pb-3">
+                        💻 Web Development
+                    </li>
+                    <li class="border-b-2 border-black pb-3">
+                        📍 Indonesia
+                    </li>
+                    <li>
+                        🚀 Always Learning
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="skills" class="px-6 py-16 md:py-24">
+    <div class="mx-auto max-w-6xl">
+
+        <!-- Section Header -->
+        <div class="mb-10">
+            <p
+                class="mb-3 inline-block border-4 border-black bg-[#6C9EFF] px-4 py-2 font-black uppercase shadow-[4px_4px_0px_#111111]"
+            >
+                My toolbox
+            </p>
+
+            <h2 class="text-4xl font-black uppercase md:text-6xl">
+                Skills & Tech Stack
+            </h2>
+
+            <p class="mt-5 max-w-2xl text-lg font-medium">
+                Technologies and tools that I use and continue to learn
+                while building web development projects.
+            </p>
+        </div>
+
+        <!-- Frontend -->
+        <div class="mb-10">
+            <h3
+                class="mb-5 inline-block border-4 border-black bg-[#FFD93D] px-4 py-2 text-2xl font-black uppercase shadow-[4px_4px_0px_#111111]"
+            >
+                Frontend
+            </h3>
+
+            <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+
+                <!-- HTML -->
+                <div
+                    class="border-4 border-black bg-[#FF6B9D] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-html5-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        HTML 5
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Semantic markup
+                    </p>
+                </div>
+
+                <!-- CSS -->
+                <div
+                    class="border-4 border-black bg-[#6C9EFF] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-css3-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        CSS
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Styling & responsive design
+                    </p>
+                </div>
+
+                <!-- JavaScript -->
+                <div
+                    class="border-4 border-black bg-[#FFD93D] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-javascript-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        JavaScript
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        DOM & web interaction
+                    </p>
+                </div>
+
+                <!-- Tailwind -->
+                <div
+                    class="border-4 border-black bg-[#7FE5A3] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-tailwindcss-original text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        Tailwind CSS
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Utility-first CSS
+                    </p>
+                </div>
+
+                <!-- React -->
+                <div
+                    class="border-4 border-black bg-white p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-react-original text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        React.js
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Component-based UI
+                    </p>
+                </div>
+
+                <!-- Vue -->
+                <div
+                    class="border-4 border-black bg-[#7FE5A3] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-vuejs-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        Vue.js
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Frontend framework
+                    </p>
+                </div>
+
+                <!-- Next -->
+                <div
+                    class="border-4 border-black bg-white p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-nextjs-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        Next.js
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        React framework
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="mb-10">
+            <h3
+                class="mb-5 inline-block border-4 border-black bg-[#FF6B9D] px-4 py-2 text-2xl font-black uppercase shadow-[4px_4px_0px_#111111]"
+            >
+                Backend
+            </h3>
+
+            <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
+
+                <!-- PHP -->
+                <div
+                    class="border-4 border-black bg-[#6C9EFF] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-php-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        PHP
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Backend programming
+                    </p>
+                </div>
+
+                <!-- Laravel -->
+                <div
+                    class="border-4 border-black bg-[#FF6B9D] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-laravel-original text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        Laravel
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        PHP framework
+                    </p>
+                </div>
+
+                <!-- Node -->
+                <div
+                    class="border-4 border-black bg-[#7FE5A3] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-nodejs-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        Node.js
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        JavaScript runtime
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Database -->
+        <div class="mb-10">
+            <h3
+                class="mb-5 inline-block border-4 border-black bg-[#6C9EFF] px-4 py-2 text-2xl font-black uppercase shadow-[4px_4px_0px_#111111]"
+            >
+                Database
+            </h3>
+
+            <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
+
+                <!-- MySQL -->
+                <div
+                    class="border-4 border-black bg-[#FFD93D] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-mysql-original text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        MySQL
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Relational database
+                    </p>
+                </div>
+                <!-- MongoDB -->
+                <div
+                    class="border-4 border-black bg-[#7FE5A3] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-mongodb-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        MongoDB
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        NoSQL database
+                    </p>
+                </div>
+                <!-- PhpMyAdmin -->
+                <div
+                    class="border-4 border-black bg-[#7FE5A3] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <img src="../images/logo.png" alt="PhpMyAdmin" class="h-15 w-auto object-contain mix-blend-multiply">
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        PhpMyAdmin
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Database management"
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div>
+            <h3
+                class="mb-5 inline-block border-4 border-black bg-[#7FE5A3] px-4 py-2 text-2xl font-black uppercase shadow-[4px_4px_0px_#111111]"
+            >
+                Tools
+            </h3>
+
+            <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-4">
+
+                <!-- Git -->
+                <div
+                    class="border-4 border-black bg-white p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-git-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        Git
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Version control
+                    </p>
+                </div>
+
+                <!-- GitHub -->
+                <div
+                    class="border-4 border-black bg-[#FFD93D] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-github-original text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        GitHub
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Code hosting
+                    </p>
+                </div>
+
+                <!-- VS Code -->
+                <div
+                    class="border-4 border-black bg-[#6C9EFF] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-vscode-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        VS Code
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        Code editor
+                    </p>
+                </div>
+                <!-- Postman -->
+                <div
+                    class="border-4 border-black bg-[#FF6B9D] p-6 shadow-[6px_6px_0px_#111111] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+                >
+                    <i class="devicon-postman-plain text-6xl"></i>
+                    <h4 class="mt-5 text-2xl font-black uppercase">
+                        Postman
+                    </h4>
+                    <p class="mt-2 font-medium">
+                        API testing
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- Projects -->
+    <div id="project"></div>
+
+    <!-- Experience -->
+    <div id="experience"></div>
+
+    <!-- Certifications -->
+    <div id="certifications"></div>
+
+    <!-- Contact -->
+    <div id="contact"></div>
+</main>
+<script src="../js/component.js"></script>
+<script>
+    const menuButton = document.getElementById("menu-button");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+    });
+
+    // Tutup menu setelah salah satu link diklik
+    const mobileLinks = mobileMenu.querySelectorAll("a");
+
+    mobileLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+            mobileMenu.classList.add("hidden");
+        });
+    });
+</script>
+</body>
+</html>
