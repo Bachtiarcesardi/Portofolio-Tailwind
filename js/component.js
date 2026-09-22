@@ -1,4 +1,4 @@
-fetch("../src/project.html")
+fetch("./src/project.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("project").innerHTML = data;
@@ -7,19 +7,19 @@ fetch("../src/project.html")
         console.error("Error:", error);
     });
 
-    fetch("../src/experience.html")
+    fetch("./src/experience.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("experience").innerHTML = data;
     });
 
-    fetch("../src/certifications.html")
+    fetch("./src/certifications.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("certifications").innerHTML = data;
     });
 
-fetch("../src/contact.html")
+fetch("./src/contact.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("contact").innerHTML = data;
